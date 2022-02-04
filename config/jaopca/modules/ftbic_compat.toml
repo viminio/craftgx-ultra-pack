@@ -1,0 +1,17 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = []
+
+[recipes]
+	#The materials that should not have macerator recipes added.
+	toDustMaterialBlacklist = []
+	#The materials that should not have roller to gear recipes added.
+	toGearMaterialBlacklist = []
+	#Should materials be directly added to FTBIC's material list to generate recipes instead of having JAOPCA do so.
+	addToFTBICMaterials = false
+	#The materials that should not have extruder to rod recipes added.
+	toRodMaterialBlacklist = []
+	#The materials that should not have roller to plate recipes added.
+	toPlateMaterialBlacklist = []
+
